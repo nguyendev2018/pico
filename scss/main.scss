@@ -1,0 +1,17 @@
+.footer {
+    text-transform: uppercase;
+}
+
+.heading {
+    text-transform: uppercase;
+    &--bold {
+        font-weight: bold;
+    }
+    &--italic {
+        font-style: italic;
+    }
+}
+
+.hii {
+    text-emphasis: none;
+}

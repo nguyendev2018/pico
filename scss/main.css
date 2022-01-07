@@ -1,0 +1,21 @@
+.footer {
+  text-transform: uppercase;
+}
+
+.heading {
+  text-transform: uppercase;
+}
+
+.heading--bold {
+  font-weight: bold;
+}
+
+.heading--italic {
+  font-style: italic;
+}
+
+.hii {
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+}
+/*# sourceMappingURL=main.css.map */
