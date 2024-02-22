@@ -16,21 +16,17 @@
 </head>
 
 <body>
-    <div class="warpper" style="overflow-x:hidden ;">
-        <nav class="menu navbar navbar-expand-lg navbar-light ">
+    <div class="warpper">
+        <nav class="menu">
             <div class="container container-banner">
-                <div class="my-lg-0 form-search-mobile">
-                    <select class="search-item">
-                        <option>VI</option>
-                        <option>EN</option>
-                    </select>
-                </div>
-                <a class="navbar-brand" href="#" style="margin: 0 auto;">
-                    <img src="vendor/img/logo.png" alt="">
+                <a href="#" title="PICO">
+                    <img src="vendor/img/logo.png" alt="logo">
                 </a>
-                <span class="navbar-toggler"></span>
+                <div class="icon-bar">
+                    <div class="icon-barChild"></div>
+                </div>
                 <div class="collapse navbar-collapse navbar-web">
-                    <ul class="navbar-nav m-auto">
+                    <ul class="navbar-nav">
                         <li class="nav-item active">
                             <a class="nav-link link-act" href="#">Home</a>
                         </li>
@@ -49,38 +45,30 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#" data-text="Contact">Contact</a>
                         </li>
-
                     </ul>
-                    <div class="my-lg-0 form-search">
-                        <select class="search-item">
-                            <option>VI</option>
-                            <option>EN</option>
-                        </select>
-                    </div>
                 </div>
-            </div>
-            <div class=" navbar-collapse navbar-mobi">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link link-act" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-text="Products">Product</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-text="Portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-text="news">news</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-text="about us">about us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-text="Contact">Contact</a>
-                    </li>
-
-                </ul>
+                <div class=" navbar-collapse navbar-mobile">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link link-act" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-text="Products">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-text="Portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-text="news">news</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-text="about us">about us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-text="Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="home">
@@ -115,10 +103,10 @@
                     <div class="w-100">
                         <h3 class="title"><span>A</span>BOUT US</h3>
                     </div>
-                    <div class="col-md-6 img-banner">
-
+                    <div class="col-md-6">
+                        <img src="./vendor/img/pico-furniture-bg-small.jpg" alt="img-aboutUs" class="img-aboutUs">
                     </div>
-                    <div class="col-md-6 ">
+                    <div class="col-md-6 mt-2 mt-md-0">
                         <p class="box-content">At Pico we do understand how important it is to invest time in getting to know you and your business, so we can deliver a truly innovative design and build the best solution for your place. Our team will always accompany you right
                             through the project timeline, ensure your vision is delivered to meet your expectations – on time and on budget. We are committed to forging long-term partnerships with our clients, creating robust, ﬂexible solutions which
                             will address changing needs of your business in the future</p>
@@ -136,21 +124,8 @@
                     </div>
                 </div>
             </div>
-            <div id="slide" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#slide" data-slide-to="0" class="active"></li>
-                    <li data-target="#slide" data-slide-to="1"></li>
-                </ol>
-                <div class="slide-portfolio carousel-inner">
-                    <div class="carousel-item slide-1 active">
-                    </div>
-                    <div class="carousel-item slide-2 ">
-                    </div>
-                </div>
-            </div>
         </div>
-        <div id="slide" class="carousel slide" data-ride="carousel">
-
+        <div class="carousel slide" >
             <div class=" carousel-inner">
                 <div class="carousel-item  active">
                     <div class="main-content p-5">
@@ -191,7 +166,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="slide-main slide-main__footer">
+                    <div class="slide-main slide-main__footer p-5">
                         <div class="w-50 mobi-100">
                             <img src="vendor/img/banner/1.jpg" alt="" class="img-main">
                         </div>
@@ -263,16 +238,12 @@
                     </div>
                 </div>
             </div>
-            <ol class="slide-new ">
-                <li data-target="#slide" data-slide-to="0" class="active"></li>
-                <li data-target="#slide" data-slide-to="1"></li>
-            </ol>
         </div>
         <div class="last-news">
             <div class="container">
-                <h4 class="monebold box-title box__title__40">Read Our Lastest News</h4>
-                <section class="regular slider">
-                    <div class="slider-item">
+                <h4 class="box-title box__title__40">Read Our Lastest News</h4>
+                <section class="last-news__slider slider">
+                    <a href="#" class="slider-item">
                         <div class="box-news">
                             <img src="vendor/img/banner/1.jpg" class="img-news">
                             <span class="date">march 20,2020</span>
@@ -281,8 +252,8 @@
                             </p>
                             <p class="box-content content-emlips-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, hic eos. Repellendus sint quibusdam quaerat, aperiam repellat, enim fugit illum molestias velit ad error, voluptas fugiat sit! Incidunt, deserunt officiis?</p>
                         </div>
-                    </div>
-                    <div class="slider-item">
+                    </a>
+                    <a href="#" class="slider-item">
                         <div class="box-news">
                             <img src="vendor/img/banner/1.jpg" class="img-news">
                             <span class="date">march 20,2020</span>
@@ -291,8 +262,8 @@
                             </p>
                             <p class="box-content content-emlips-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, hic eos. Repellendus sint quibusdam quaerat, aperiam repellat, enim fugit illum molestias velit ad error, voluptas fugiat sit! Incidunt, deserunt officiis?</p>
                         </div>
-                    </div>
-                    <div class="slider-item">
+                    </a>
+                    <a href="#" class="slider-item">
                         <div class="box-news">
                             <img src="vendor/img/banner/1.jpg" class="img-news">
                             <span class="date">march 20,2020</span>
@@ -301,8 +272,8 @@
                             </p>
                             <p class="box-content content-emlips-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, hic eos. Repellendus sint quibusdam quaerat, aperiam repellat, enim fugit illum molestias velit ad error, voluptas fugiat sit! Incidunt, deserunt officiis?</p>
                         </div>
-                    </div>
-                    <div class="slider-item">
+                    </a>
+                    <a href="#" class="slider-item">
                         <div class="box-news">
                             <img src="vendor/img/banner/1.jpg" class="img-news">
                             <span class="date">march 20,2020</span>
@@ -311,8 +282,8 @@
                             </p>
                             <p class="box-content content-emlips-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, hic eos. Repellendus sint quibusdam quaerat, aperiam repellat, enim fugit illum molestias velit ad error, voluptas fugiat sit! Incidunt, deserunt officiis?</p>
                         </div>
-                    </div>
-                    <div class="slider-item">
+                    </a>
+                    <a href="#" class="slider-item">
                         <div class="box-news">
                             <img src="vendor/img/banner/1.jpg" class="img-news">
                             <span class="date">march 20,2020</span>
@@ -321,8 +292,8 @@
                             </p>
                             <p class="box-content content-emlips-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, hic eos. Repellendus sint quibusdam quaerat, aperiam repellat, enim fugit illum molestias velit ad error, voluptas fugiat sit! Incidunt, deserunt officiis?</p>
                         </div>
-                    </div>
-                    <div class="slider-item">
+                    </a>
+                    <a href="#" class="slider-item">
                         <div class="box-news">
                             <img src="vendor/img/banner/1.jpg" class="img-news">
                             <span class="date">march 20,2020</span>
@@ -331,24 +302,28 @@
                             </p>
                             <p class="box-content content-emlips-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, hic eos. Repellendus sint quibusdam quaerat, aperiam repellat, enim fugit illum molestias velit ad error, voluptas fugiat sit! Incidunt, deserunt officiis?</p>
                         </div>
-                    </div>
-
+                    </a>
                 </section>
             </div>
-
         </div>
         <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-12 text-center">
-                        <img src="vendor/img/pico-logo-white.png" alt="" style="margin-top: 30px; max-width: 100%;">
+                        <img src="vendor/img/pico-logo-white.png" alt="logo" style="margin-top: 30px; max-width: 100%;">
                     </div>
                     <div class="col-lg-3 col-6 ">
                         <h4 class="box-title" style="color: white;"> Social Media</h4>
                         <div class="social">
-                            <i class="icon fab fa-facebook-square"></i>
-                            <i class="icon fab fa-facebook-square"></i>
-                            <i class="icon fab fa-facebook-square"></i>
+                            <a href="#" class="icon">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-google-plus-square"></i>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-6 ">
@@ -373,31 +348,20 @@
 
     <script src="vendor/js/slick.min.js"></script>
     <script>
-        $(".regular").slick({
+        $(".last-news__slider").slick({
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 3,
-            responsive: [{
-                breakpoint: 992,
+            responsive: [
+                {
+                breakpoint: 1400,
                 settings: {
-                    arrows: false,
-                    centerMode: true,
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
+                    arrows: false
                 }
-            }, {
+            },
+            {
                 breakpoint: 768,
                 settings: {
-                    arrows: false,
-                    centerMode: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            }, {
-                breakpoint: 567,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
                     slidesToShow: 1,
                     slidesToScroll: 1,
                 }

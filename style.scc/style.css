@@ -10,10 +10,10 @@
 .navbar-nav {
   flex-direction: row; }
 
-span.navbar-toggler {
+span.icon-bar {
   position: relative; }
 
-span.navbar-toggler::before {
+span.icon-bar::before {
   margin-bottom: 3px; }
 
 .form-search-mobile {
@@ -23,8 +23,8 @@ span.navbar-toggler::before {
   font-size: 20px;
   text-transform: uppercase; }
 
-span.navbar-toggler::after,
-span.navbar-toggler::before {
+span.icon-bar::after,
+span.icon-bar::before {
   content: "";
   display: block;
   width: 20px;
@@ -75,7 +75,7 @@ span.navbar-toggler::before {
   .navbar {
     padding: 0; }
 
-  .navbar-toggler {
+  .icon-bar {
     padding-right: 1rem; }
 
   .navbar-collapse .navbar-web {
